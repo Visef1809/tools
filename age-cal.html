@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Toolkit - All-in-One Tools</title>
+    <meta name="description" content="Your complete solution for image compression, age calculation, and PDF tools. Free online tools for all your digital needs.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Combined CSS Styles */
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #4f46e5;
+            --accent-color: #818cf8;
+            --background: #f8fafc;
+            --text-color: #1e293b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            background-color: var(--background);
+            color: var(--text-color);
+        }
+
+        /* Navigation Styles */
+        .navbar {
+            background: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        /* Tool Container Styles */
+        .tool-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+        }
+
+        /* Age Calculator Styles */
+        .age-calculator {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Image Compressor Styles */
+        .compression-tool {
+            background: white;
+            border-radius: 1rem;
+            padding: 2.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Combined Responsive Grid */
+        .grid {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        /* Unified Button Styles */
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .tool-container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Digital Toolkit</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#tools">Tools</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="tool-container">
+        <!-- Image Compressor Tool -->
+        <section class="compression-tool">
+            <h2>Image Compressor</h2>
+            <!-- Image compression tool components here -->
+        </section>
+
+        <!-- Age Calculator Tool -->
+        <section class="age-calculator">
+            <h2>Age Calculator</h2>
+            <!-- Age calculator components here -->
+        </section>
+
+        <!-- PDF Tools Section -->
+        <section class="pdf-tools grid">
+            <!-- PDF tools components here -->
+        </section>
+    </div>
+
+    <!-- Combined JavaScript -->
+    <script>
+        // Image Compression Logic
+        let compressedBlob = null;
+
+        // Age Calculator Logic
+        const birthDate = document.createElement('input');
+        birthDate.type = 'date';
+
+        // Unified Event Listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize all tools
+        });
+
+        // Common Utility Functions
+        function formatBytes(bytes) {
+            // Implementation
+        }
+    </script>
+</body>
+</html>
